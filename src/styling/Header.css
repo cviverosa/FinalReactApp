@@ -1,0 +1,46 @@
+/* style for the nav bar */
+
+.navbar {
+    background-color: purple;
+    display: flex;
+    flex-direction: column; /* Arrange elements in a column */
+    align-items: center; /* Center items horizontally in the navbar */
+    padding: 10px;
+  }
+
+  .create-task-page {
+    background-color: seagreen; /* Change to the desired color for the CreateTaskPage */
+  }
+
+  .tasks-by-status-page {
+    background-color: paleturquoise; /* Change to the desired color for the TasksByStatus page */
+  }
+  
+  h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px; /* Add some spacing between the heading and links */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 50px; /* Add margin to create space between links */
+  }
+  
+  .nav-link:hover {
+    color: lightcoral;
+  }
+
+
+  .status-box {
+    padding: 10px;
+  }
+  
